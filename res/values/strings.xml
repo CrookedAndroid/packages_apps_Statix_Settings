@@ -5,11 +5,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- StatiXOS version -->
-    <string name="statix_version">StatiXOS version</string>
-    <string name="statix_version_default">Unknown</string>
-    <string name="statix_uri" translatable="false">https://github.com/StatiXOS</string>
-
     <!-- Adaptive charging -->
     <string name="adaptive_charging">Adaptive Charging</string>
     <string name="adaptive_charging_description">Extend battery lifespan by charging steadily during longer charging periods. Activated based on your usage cycle.</string>
