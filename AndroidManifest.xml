@@ -42,27 +42,6 @@
                 android:value="com.statix.android.settings.fuelgauge.batterysaver.SmartPixels" />
         </activity>
 
-        <!-- Face enroll -->
-        <activity android:theme="@style/SudThemeGlif.Light"
-                  android:name="com.statix.android.settings.biometrics.face.FaceEnrollActivityDirector"
-                  android:exported="true"
-                  android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity android:theme="@style/SudThemeGlif.Light"
-                  android:name="com.statix.android.settings.biometrics.face.FaceEnrollConfirmation"
-                  android:exported="true"
-                  android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-
 	<!-- Phone and bluetooth device battery data -->
 	<service android:name="com.statix.android.settings.fuelgauge.batterydata.BatteryDataFetchService"
 		 android:permission="android.permission.BIND_JOB_SERVICE"
