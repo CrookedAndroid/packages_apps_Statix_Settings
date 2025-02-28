@@ -61,7 +61,6 @@ class SwipeGesturePreferenceController(private val context: Context) :
         when (assistAction) {
           0 -> R.string.screenshot_corner_gesture_summary
           1 -> R.string.camera_corner_gesture_summary
-          2 -> R.string.search_corner_gesture_summary
           else -> R.string.assistant_corner_gesture_summary
         }
       )
