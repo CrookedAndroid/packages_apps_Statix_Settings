@@ -6,11 +6,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- StatiXOS version -->
-    <string name="statix_version">StatiXOS version</string>
+    <string name="statix_version">CrookedAndroid version</string>
     <string name="statix_version_default">Unknown</string>
     <string name="device_codename">Device Codename</string>
     <string name="device_codename_default">Unknown</string>
-    <string name="statix_uri" translatable="false">https://github.com/StatiXOS</string>
+    <string name="statix_uri" translatable="false">https://github.com/CrookedAndroid</string>
 
     <!-- Adaptive charging -->
     <string name="adaptive_charging">Adaptive Charging</string>
